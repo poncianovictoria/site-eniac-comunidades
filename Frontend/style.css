@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   color: #333;
   scroll-behavior: smooth;
   background-color: #FAFFFA;
@@ -221,7 +221,7 @@ header {
   margin: 3rem auto;
   gap: 2rem;
   padding: 0 1rem;
-  font-family: "Fraunces", serif;
+  font-family: "Poppins", serif;
   /*parei de codar aqui*/
 
 }
@@ -275,7 +275,7 @@ header {
   flex-wrap: wrap;
   /* permite quebrar linha se a tela for menor */
   padding: 2rem;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
 
 }
 
@@ -285,7 +285,7 @@ header {
   text-align: center;
   padding-top: 50px;
   font-size: 2rem;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   font-weight: 800;
 }
 
@@ -470,7 +470,7 @@ header {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
 }
 
 .sobre h1 {
@@ -496,7 +496,7 @@ header {
 
 .dados h1 {
   color: #FAFFFA;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   font-weight: 800;
   font-size: 2rem;
 }
@@ -505,7 +505,7 @@ header {
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 2rem;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   font-weight: 800;
 }
 
@@ -513,7 +513,7 @@ header {
   font-size: 1.1rem;
   margin-bottom: 40px;
   color: #FAFFFA;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   font-weight: 700;
 }
 
@@ -522,7 +522,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
 }
 
 .card2 {
@@ -588,7 +588,7 @@ header {
   padding-bottom: 30px;
   padding-top: 20px;
   font-size: 2rem;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
   font-weight: 800;
 }
 
@@ -611,7 +611,7 @@ header {
   gap: 1rem;
   align-items: flex-start;
   transition: transform 0.2s ease;
-  font-family: 'Fraunces', serif;
+  font-family: 'Poppins', serif;
 }
 
 .card-comentario:hover {
@@ -710,6 +710,148 @@ header {
   border-radius: 10px;
 }
 
+/*Time Eniac*/
+.eniac-team {
+  background-color: #438951;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.eniac-team .container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eniac-team h2 {
+  font-family: 'Poppins', serif;
+  font-size: 3em;
+  margin-bottom: 50px;
+  color: #C0D6BF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.eniac-team .team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.eniac-team .member-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: calc(33.333% - 20px);
+  min-width: 280px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.eniac-team .member-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.eniac-team .member-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.eniac-team .member-card p {
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 0 15px;
+  color: #333;
+}
+
+/*Voluntários*/
+.voluntario {
+    padding: 80px 20px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-voluntario {
+    max-width: 900px;
+    width: 100%;
+    text-align: left;
+}
+
+.voluntario h2 {
+    font-family: 'Poppins', serif;
+    font-size: 3em;
+    color: #438951;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.conteudo-voluntario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: flex-start;
+}
+
+.info-voluntario,
+.campos-essenciais {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info-voluntario h3,
+.campos-essenciais h3 {
+    font-size: 1.5em;
+    color: #438951;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.icone-circulo {
+    width: 20px;
+    height: 20px;
+    background-color: #DDEEEF;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.info-voluntario p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.botao-cadastro {
+    background-color: #438951;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botao-cadastro:hover {
+    background-color: #589965;
+}
 
 /*Inicio do footer*/
 
