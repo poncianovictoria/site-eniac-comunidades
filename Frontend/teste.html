@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saúde nas Comunidades - ENIAC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --verde-claro: #A8D5BA;
+      --verde-medio: #5CA88E;
+      --verde-escuro: #2F594D;
+      --cinza: #F5F5F5;
+      --preto: #333;
+      --branco: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      color: var(--preto);
+      line-height: 1.6;
+      background-color: var(--branco);
+    }
+
+    header {
+      background-color: var(--verde-escuro);
+      color: var(--branco);
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+    }
+
+    .hero {
+      background-color: var(--verde-claro);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .hero button {
+      background-color: var(--verde-medio);
+      color: var(--branco);
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+      color: var(--verde-escuro);
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: var(--cinza);
+      padding: 1.5rem;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: var(--verde-escuro);
+      color: var(--branco);
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saúde nas Comunidades - ENIAC</h1>
+  </header>
+
+  <div class="hero">
+    <h2>Cuide da sua saúde com carinho e apoio profissional</h2>
+    <p>Atendimentos gratuitos em sua comunidade com o suporte da Faculdade ENIAC. Agende agora sua consulta.</p>
+    <button>Agende sua Consulta</button>
+  </div>
+
+  <section>
+    <h2 class="section-title">Serviços Oferecidos</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Consulta Médica</h3>
+        <p>Atendimento com profissionais e estudantes supervisionados.</p>
+      </div>
+      <div class="card">
+        <h3>Verificação de Pressão</h3>
+        <p>Cuide do seu coração com aferições regulares e gratuitas.</p>
+      </div>
+      <div class="card">
+        <h3>Orientação Nutricional</h3>
+        <p>Alimentação saudável ao seu alcance, com dicas práticas.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Faculdade ENIAC - Projeto Saúde nas Comunidades</p>
+  </footer>
+</body>
+</html>

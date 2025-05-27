@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saúde Eniac nas Comunidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .titulo-container {
+            display: inline-block;
+            position: relative;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #digitando {
+            position: absolute;
+            top: 0;
+            left: calc(100% + 5px);
+            /* Posiciona ao lado do texto fixo */
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid black;
+            animation: blink-caret 0.7s step-end infinite;
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="titulo-container">
+        Saúde Eniac nas Comunidades:
+        <span id="digitando"></span>
+    </div>
+
+    <script>
+        const texto = " Bem-vindo!";
+        const alvo = document.getElementById("digitando");
+
+        let i = 0;
+
+        function digitar() {
+            if (i <= texto.length) {
+                alvo.textContent = texto.substring(0, i);
+                i++;
+                setTimeout(digitar, 150);
+            } else {
+                // Aguarda um tempo e reinicia
+                setTimeout(() => {
+                    i = 0;
+                    alvo.textContent = "";
+                    digitar();
+                }, 1000); // Pausa de 1 segundo após a digitação
+            }
+        }
+
+        digitar();
+    </script>
+
+</body>
+
+</html>
