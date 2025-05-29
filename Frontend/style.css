@@ -350,11 +350,7 @@ header {
   gap: 30px;
 }
 
-<<<<<<< HEAD
 .card.active .content {
-=======
-.card:hover .content {
->>>>>>> eee340c095a71d21d35e0d17f80c584345988860
   transform: rotateY(180deg);
 }
 
@@ -1034,7 +1030,6 @@ footer {
 
 /*Fim do botão back to up*/
 
-<<<<<<< HEAD
 /*Para corrigir o problema do hover*/
 @media (hover: hover) and (pointer: fine) {
   .card:hover .content {
@@ -1042,8 +1037,6 @@ footer {
   }
 }
 
-=======
->>>>>>> eee340c095a71d21d35e0d17f80c584345988860
 /* ========== RESPONSIVO ========== */
 @media (max-width: 768px) {
 
