@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eniac nas Comunidades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Titillium+Web:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#topo-do-site">
+                    <img src="/img/logo.png" alt="Logo" width="150" height="auto">
+                </a>
+            </div>
+
+            <!-- Botão de menu -->
+            <div class="menu">
+                <button class="button" id="btn-menu">
+                    <div class="similar-line line-1"></div>
+                    <div class="similar-line line-2"></div>
+                    <div class="similar-line line-3"></div>
+                </button>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar" id="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li> <a href="#Inicio">Inicio</a> </li>
+                        <li> <a href="#Sobre">Sobre</a> </li>
+                        <li> <a href="#Servicos">Serviços</a> </li>
+                        <li> <a href="#Dados">Dados</a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container" id="Inicio">
+            <div class="esquerda">
+                <h1>Saúde Eniac nas</h1>
+                <h1><span class="linha-fixa">Comunidades:<span id="digitando"></span></span></h1>
+            </div>
+
+            <script src="titulo.js"></script>
+
+            <div class="direita">
+                <img src="/img/comunidade2.jpg " width="500" height="auto">
+            </div>
+        </section>
+
+        <section class="dados" id="Dados">
+            <h1>Nosso Impacto</h1>
+            <p class="intro">
+                Em cada edição, ampliamos nosso alcance e ajudamos mais pessoas.<br>
+                Confira alguns números que mostram a força da solidariedade:
+            </p>
+
+            <div class="indicadores">
+                <div class="card2">
+                    <span class="icone">👥</span>
+                    <h3><span class="contador" data-valor="5000">0</span>+</h3>
+                    <p>Pessoas atendidas</p>
+                </div>
+                <div class="card2">
+                    <span class="icone">🧑‍⚕️</span>
+                    <h3><span class="contador" data-valor="300">0</span>+</h3>
+                    <p>Voluntários envolvidos</p>
+                </div>
+                <div class="card2">
+                    <span class="icone">📍</span>
+                    <h3>12</h3>
+                    <p>Comunidades beneficiadas</p>
+                </div>
+                <div class="card2">
+                    <div class="pizza" data-valor="95">
+                        <div class="contador">0%</div>
+                    </div>
+                    <p>Satisfação dos participantes</p>
+                </div>
+                <div class="card2">
+                    <span class="icone">📆</span>
+                    <h3>Mensal</h3>
+                    <p>Eventos desde 2022</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="" id="Servicos">
+            <div class="oque-fazemos">
+                <h1>O que Nós Fazemos</h1>
+            </div>
+            <section class="carrossel">
+
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <img src="/img/pressure.png" alt="Ícone personalizado" />
+                                <strong>Aferição de pressão e glicemia</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pressão</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Medimos sua pressão</strong>
+                                        </p>
+                                        <g transform="scale(8,8)">
+                                            <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                        </g>
+                                        </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <img src="/img/atendimento.png" alt="Ícone personalizado" />
+                                <strong>Atendimento clínico básico</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Atendimento</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>O melhor atendimento</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <img src="/img/food.png" alt="Ícone personalizado">
+                                <strong>Orientações <br /> nutricionais</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Nutrição</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Nutricionistas qualificados</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 4-->
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <img src="/img/injection.png" alt="Ícone personalizado">
+                                <strong>Vacinação</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Vacina</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Colocamos suas vacinas em dia!</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    document.querySelectorAll('.card').forEach(card => {
+                        card.addEventListener('click', () => {
+                            card.classList.toggle('active');
+                        });
+                    });
+                </script>
+            </section>
+        </section>
+
+        <section class="sobre" id="Sobre">
+            <h1>Sobre o Projeto</h1>
+            <p>O <strong>"Saúde Eniac nas Comunidades"</strong> é um projeto social promovido mensalmente pelo <strong>
+                    Centro Universitário
+                    ENIAC</strong>. Levamos atendimento gratuito em saúde, educação e cidadania para
+                comunidades de Guarulhos em
+                situação de vulnerabilidade.
+                Com o apoio de estudantes, professores e parceiros voluntários, realizamos orientações médicas, aferição
+                de pressão, serviços de enfermagem, triagens odontológicas, suporte psicológico e muito mais — tudo com
+                acolhimento, carinho e responsabilidade social.
+                Nosso objetivo é unir conhecimento, empatia e ação para transformar vidas.
+
+            </p>
+        </section>
+
+        <section class="cards-comentario">
+            <h1>O que dizem sobre nós</h1>
+            <div class="comentarios" id="comentarios"></div>
+        </section>
+
+        <script src="comentarios.js"></script>
+
+        <section class="mapa">
+            <h2>Veja onde estaremos</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4080749825085!2d-46.5315896247962!3d-23.51997745931811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef4b59caa6b15%3A0x4d9280b7bc5c1246!2sCentro%20Universit%C3%A1rio%20ENIAC!5e0!3m2!1spt-BR!2sbr!4v1684360583643!5m2!1spt-BR!2sbr"
+                width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section class="galeria">
+            <h2>Galeria</h2>
+            <div class="grid">
+                <img src="/img/grupo-medico.jpg" alt="Foto 1" />
+                <img src="/img/grupo-voluntario.jpg" alt="Foto 2" />
+                <img src="/img/grupo-voluntario4.jpg" alt="Foto 3" />
+                <img src="/img/grupo-voluntario5.jpg" alt="Foto 4" />
+            </div>
+        </section>
+
+        <section class="eniac-team">
+            <div class="container2">
+                <h1>Time Eniac: Nossos Heróis </h1>
+                <div class="team-members">
+                    <div class="member-card">
+                        <img src="/img/doutora.jpg" alt="Luciana - Nurse">
+                        <h3>Luciana - Enfermeira</h3>
+                        <p>Dedicada ao atendimento compassivo ao paciente e à educação em saúde comunitária.</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="/img/doutor.jpg" alt="Dr. Carlos - Physician">
+                        <h3>Dr. Carlos - Médico</h3>
+                        <p>Fornecendo conhecimento médico com empatia para cada paciente atendido.</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="/img/servicosocial.jpg" alt="Fernanda - Social Worker">
+                        <h3>Fernanda - Serviço Social</h3>
+                        <p>Facilitando o apoio social e conectando as famílias a recursos vitais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="voluntario">
+            <div class="container-voluntario">
+                <h2>Seja um Voluntário!</h2>
+                <div class="conteudo-voluntario">
+                    <div class="info-voluntario">
+                        <div class="icone-circulo"></div>
+                        <h3>Junte-se à Nossa Equipe</h3>
+                        <p>Preencha o formulário simples abaixo para começar a fazer a diferença hoje.</p>
+                        <button class="botao-cadastro">Junte-se a Nós!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal">
+            <img src="" alt="Imagem ampliada" />
+        </div>
+        <script src="contador.js"></script>
+    </main>
+    <button onclick="topFunction()" id="backToTopBtn" title="Voltar ao topo">↑</button>
+    <script src="bt-up.js"></script>
+
+    <footer style="background: linear-gradient(90deg, #6DBF6A 0%, #9BE5AA 50%, #9BE5CE 100%);">
+        <!-- Container Principal do Footer -->
+        <div class="footer-container-nav">
+            <!-- Logo -->
+            <div class="footer-logo">
+                <span style="font-weight: bold; font-size: 1.8rem;">
+                    <img style="width: 180px;"
+                        src="https://www.eniac.edu.br/hubfs/SISTEMA%20TI%20OS/Logos-Eniac-2019-1.png" alt="Logo Eniac">
+                </span>
+            </div>
+
+            <!-- Navegação -->
+            <div class="footer-nav">
+                <a class="footer-nav-link" href="#Inicio">Início</a>
+                <a class="footer-nav-link" href="#Sobre">Sobre</a>
+                <a class="footer-nav-link" href="#Dados">Dados</a>
+            </div>
+        </div>
+
+        <!-- Contato -->
+        <div class="footer-contact">
+            <span>
+                <i class="bi bi-geo-alt-fill"></i>
+                Endereço: R. Força Pública, 89 - Centro, <br />
+            </span>
+            <span>
+                Guarulhos - SP, 07012-030
+            </span>
+            <span>
+                <i class="bi bi-telephone-fill"></i>
+                Contato: +55 11 2472-5500
+            </span>
+        </div>
+
+        <!-- Divisor -->
+        <hr class="footer-divider">
+
+        <!-- Redes Sociais -->
+        <div style="margin: auto; text-align: center; color: #ffffff; padding: 1rem;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1.2rem;">
+                <a class="footer-social" href="https://www.facebook.com/eniac.oficial/?locale=pt_BR" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a class="footer-social" href="https://www.linkedin.com/school/eniacoficial/posts/?feedView=all"
+                    target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+
+            <!-- Descrição Final -->
+            <div class="footer-description">
+                <span>Designed By Gabriel e Amigos</span>
+                <span>© 2025 Centro Universitário ENIAC | Todos os Direitos Reservados.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
