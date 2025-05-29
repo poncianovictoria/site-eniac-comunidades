@@ -667,6 +667,10 @@ header {
   border-radius: 1rem;
 }
 
+.mapa h2{
+  font-size: 2rem;
+}
+
 /* =======================
      Seção: Galeria
   ========================== */
@@ -772,6 +776,9 @@ header {
 .eniac-team .container2 {
   max-width: 1200px;
   margin: 0 auto;
+}
+.eniac-team h1{
+  font-size: 2rem;
 }
 
 .eniac-team h2 {
