@@ -2,17 +2,17 @@ const comentarios = [
     {
         nome: "Maria Silva",
         texto: "Ótimo atendimento, recomendo demais!",
-        foto: "img/maria.jpg"
+        foto: "https://randomuser.me/api/portraits/women/44.jpg"
     },
     {
         nome: "João Santos",
         texto: "Equipe muito profissional e atenciosa!",
-        foto: "img/joao.jpg"
+        foto: "https://randomuser.me/api/portraits/men/46.jpg"
     },
     {
         nome: "Ana Oliveira",
         texto: "Fiquei super satisfeita com o serviço.",
-        foto: "img/ana.jpg"
+        foto: "https://randomuser.me/api/portraits/women/68.jpg"
     }
 ];
 
