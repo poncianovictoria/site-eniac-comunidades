@@ -904,6 +904,15 @@ header {
   background-color: #589965;
 }
 
+a.botao-cadastro {
+  display: inline-block;
+}
+
+a.botao-cadastro {
+  text-decoration: none !important;
+}
+
+
 /*Inicio do footer*/
 
 footer {
