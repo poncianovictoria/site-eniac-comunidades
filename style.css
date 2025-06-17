@@ -889,6 +889,7 @@ header {
 
 .botao-cadastro {
   background-color: #438951;
+  text-decoration: none;
   color: #fff;
   padding: 12px 30px;
   border: none;
